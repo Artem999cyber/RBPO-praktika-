@@ -13,6 +13,8 @@ import ru.mtuci.rbpo_2024_praktika.repository.DeviceRepository;
 
 import java.util.Date;
 
+//TODO: 1. Стоит пересмотреть логику в registerOrUpdateDevice
+
 @RequiredArgsConstructor
 @Service
 public class DeviceService {

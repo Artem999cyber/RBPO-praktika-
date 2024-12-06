@@ -1,6 +1,7 @@
 server:
   port: 8189
 jwt:
+  #теперь любой может создавать ваши токены
   secret: 3u6H0fNhkYzP2Y45zA4sQyE+L1x9J2Z2K0Lt9g==L3mz
   expiration: 30m
 spring:

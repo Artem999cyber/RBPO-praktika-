@@ -12,6 +12,9 @@ import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 import java.util.Date;
 
+//TODO: 1. Тикет у вас живёт слишком долго
+//TODO: 2. Сильное дублирование кода
+
 @Service
 public class TicketService {
 
