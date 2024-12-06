@@ -19,6 +19,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
+//TODO: 1. Возможны ли коллизии при генерации ключей активации?
+//TODO: 2. Проверить заполнение полей при создании лицензии
+//TODO: 3. Вашу лицензию можно активировать единожды?
+
 @Service
 @RequiredArgsConstructor
 public class LicenseService {
